@@ -1,6 +1,6 @@
 # DATA
 dataset: "ml-1m"
-maxlen: 50
+maxlen: 200
 
 # MODEL
 hidden_units: 50 # 50
@@ -18,6 +18,6 @@ lr: 0.001
 l2_emb: 0.0
 
 # GENERAL
-device: 'cpu'
+device: 'cuda'
 infer_only: False
 # STATE_DICT_PATH: None
