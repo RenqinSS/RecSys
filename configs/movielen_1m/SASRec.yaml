@@ -1,0 +1,23 @@
+# DATA
+dataset: "ml-1m"
+maxlen: 50
+
+# MODEL
+hidden_units: 50 # 50
+n_blocks: 2
+n_heads: 1
+
+# INIT
+weights: 
+
+# TRAIN:
+n_epochs: 201 # 201
+batch_size: 128
+dropout_rate: 0.5
+lr: 0.001
+l2_emb: 0.0
+
+# GENERAL
+device: 'cpu'
+infer_only: False
+# STATE_DICT_PATH: None
